@@ -1,0 +1,25 @@
+{
+  "name": "Arduino-SD-List",
+  "version": "1.0.0",
+  "description": "FIFO list implementation stored on SD card for ESP32",
+  "keywords": "esp32, Arduino, AVR, sd-card, fifo, list, storage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshiqAshref/Arduino-SD-List.git"
+  },
+  "authors": [
+    {
+      "name": "Ashiq",
+      "email": "ashiq.professional@gmail.com",
+      "url": "https://github.com/AshiqAshref"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": ["espressif32", "atmegaavr", "espressif8266","atmelsam", "nrf52", "stm32"],
+  "dependencies": {
+    "bblanchon/ArduinoJson": "^6.21.3",
+    "tobiasschuerg/ESP8266 Core": "^2.7.4",
+    "bblanchon/StreamUtils": "*"
+  }
+}
